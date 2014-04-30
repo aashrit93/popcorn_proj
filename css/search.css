@@ -81,7 +81,7 @@
 	margin: 0;
 	padding: 0 10px;
 	text-shadow: 0 -1px 0 #000;
-	width: 260px;
+	width: 200px;
 }
 .search input:focus {
 	-webkit-animation: glow 800ms ease-out infinite alternate;
@@ -131,7 +131,7 @@
 	font-family: 'Cabin', helvetica, arial, sans-serif;
 	font-size: 13px;
 	font-weight: 400;
-	height: 40px;
+	height: 38px;
 	line-height: 40px;
 	margin: 0;
 	padding: 0;
