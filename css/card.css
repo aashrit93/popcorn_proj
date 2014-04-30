@@ -788,12 +788,13 @@ body {
 
 
   .active .all-content {
-    position: absolute;
+   
     left: 10px;
-    top: 20px; }
+    top: 20px; 
+  width: 100%; }
     .active .all-content h1 {
       font-size: 80px;
-      width: 50%; }
+      width: 100%; }
 
 @media (min-width: 440px) and (max-width: 750px) {
   .content h2 {

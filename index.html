@@ -16,6 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">	
 	<link rel="stylesheet" type="text/css" href="css/bg_anim.css">	
 	<link rel="stylesheet" type="text/css" href="css/search.css">
+	<link rel="stylesheet" type="text/css" href="css/review.css">
 	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	
 	
@@ -43,14 +44,11 @@
 					<li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="trending movies"><span class="icon icon-star"></span> <span class="text">TOP TRENDING</span></a></li>
 					
 					<li data-slide="4" class="col-12 col-sm-2"><a id="menu-link-1" href="#slide-4" title="Book Tickets in a theatre near you"><span class="icon icon-money"></span> <span class="text">BOOK TICKETS</span></a></li>
-					<li data-slide="3" class="col-12 col-sm-2"><a id="menu-link-4" href="http://www.google.com" title="Twitter reviews"><span class="icon icon-film"></span> <span class="text">REVIEWS</span></a></li>
+					
 					<li data-slide="6" class="col-12 col-sm-2"><a id="menu-link-6" href="#slide-6" title="Connect with social media"><span class="icon icon-envelope"></span> <span class="text">CONTACT</span></a></li>
-					<li  class="col-12 col-sm-2"><div class="search">
-  <form action="" method="">        
-    <input type="search" placeholder="Search for movies">         
-    <button>Go  <span class="icon icon-search"></span></button>
-  </form>
-</div>
+					<li data-slide="5" class="col-12 col-sm-2"><a id="menu-link-5" href="#slide-6" title="Search for movies "><span class="icon icon-search"></span> <span class="text"> SEARCH</span></a></li>
+					<li  class="col-12 col-sm-2">
+					
 				</ul>
 				<div class="row">
 					<div class="col-sm-2 active-menu"></div>
@@ -81,9 +79,10 @@
 				</div><!-- /col-12 -->
 			</div><!-- /row -->
 			<div id="home-row-2" class="row clearfix">
-				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="4"><img src="images/ticket.png"width="180"></div><span>Book Ticktes <span class="icon icon-ticket"></span></div>
-				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="3"><img src="images/review.png"width="60"></div><span>Movie Reviews and comments  <span class="icon icon-star-half-full"></span></div>
+				
+				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="5"><img src="images/review.png"width="60"></div><span>Movie Reviews and comments  <span class="icon icon-star-half-full"></span></div>
 				<div class="col-12 col-sm-4"><div class="home-hover navigation-slide" data-slide="2"><img src="images/trending.png" width="180"></div><span>Trending movies  </span><span class="icon icon-comments"></div>
+				
 			</div><!-- /row -->
 		</div><!-- /container -->
 	</div><!-- /slide1 -->
@@ -115,7 +114,18 @@
 
 		<!-- Content -->
 		<div class="all-content">
-			<h1>What is Lorem ipsum?</h1>
+			<div class="pull-right wall">
+								<img src="images/cards/p4.jpg" width="40" />
+							</div>
+							<div class="details">
+								<div class="heading"><h1>Dev D</h1></div>
+								<div class="synopsis">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, velit, repellendus commodi veniam quibusdam molestiae dolore temporibus deleniti ipsam voluptate quidem odit molestias impedit quas itaque facilis vero quam similique. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, cum beatae saepe dolor fugiat eligendi tenetur iure excepturi ex non dolores tempore quibusdam illum animi sequi quas sed laboriosam veritatis.
+									</p>
+									<p><span class="font-semibold">Actors</span>: sit amet, consectetur, Quod, consectetur, animi, vero</p>
+									<p><span class="font-semibold">Rating</span>: 8.5</p>
+								</div>
+							</div>
 		</div>
 	</li>
 
@@ -333,6 +343,52 @@
 <!-- /slide4 -->
 	
 	<!-- === Slide 5 === -->
+	<div class="slide story" id="slide-5" data-slide="5">
+		<div class="container">
+			<div class="row title-row">
+				<div class="col-12 font-thin">Find movie reviews <span class="font-semibold"> with the push of a button! <span class="icon icon-comment"></span></span></div>
+			</div><!-- /row -->
+			<div class="row line-row">
+				<div class="hr">&nbsp;</div>
+			</div><!-- /row -->
+			<div class="row subtitle-row">
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+				<div class="col-12 col-sm-10 font-light">Search for movie reviews</div>
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+			</div><!-- /row -->
+			<div class="row content-row">
+			<div class="search">
+  					<form action="" method="">        
+   					<input type="search" placeholder="Search for movies">      
+    				<button>Go  <span class="icon icon-search"></span></button>
+  										</div>
+				<div class="selectors">
+  				<form action="" method="">        
+	   				<label>Select movie name</label><select>
+	  				<option value="Movie1">movie1</option>
+	  				<option value="Movie2">movie2</option>
+	  				<option value="Movie3">movie3</option>
+	  				<option value="Movie4">movie4</option>
+					</select>
+					<label>Filter by Genre</label><select>
+	  				<option value="genre">genre</option>
+	  				<option value="genre">genre</option>
+	  				<option value="genre">genre</option>
+	  				<option value="genre">genre</option>
+					</select>
+					<label>Filter by Language</label><select>
+	  				<option value="language">language</option>
+	  				<option value="language">language</option>
+	  				<option value="language">language</option>
+	  				<option value="language">language</option>
+					</select>
+					</form>
+					</form>
+
+  				</div>
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div>
 	<!-- /slide5 -->
 	
 	<!-- === Slide 6 / Contact === -->
@@ -346,7 +402,7 @@
 			</div><!-- /row -->
 			<div class="row subtitle-row">
 				<div class="col-sm-1 hidden-sm">&nbsp;</div>
-				<div class="col-12 col-sm-10 font-light">Feel free to share ,like and Reccomend our page 1</div>
+				<div class="col-12 col-sm-10 font-light">Feel free to share ,like and Recommend our page !</div>
 				<div class="col-sm-1 hidden-sm">&nbsp;</div>
 			</div><!-- /row -->
 			<div id="contact-row-4" class="row">
