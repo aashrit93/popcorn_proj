@@ -29,8 +29,27 @@
 }
 
 #tweets .row {
-	margin: 50px 0; 
+	margin: 20px 0; 
 }
+
+#tweets .tweet {
+	padding: 2rem 1rem;
+	border-radius: 6px;
+}
+
+#tweets .tweet.positive {
+	background-color: rgb(113, 233, 75);
+}
+
+#tweets .tweet.negative {
+	background-color: rgb(238, 77, 77);
+}
+
+#tweets .tweet.neutral {
+	background-color: rgb(158, 141, 141);;
+}
+
+
 
 #tweets .tweet p {
 	text-align: left;
@@ -43,8 +62,18 @@
 
 #tweets .tweet .meta p {
 	font-size: 14px;
-	color: rgb(200, 193, 240);
 }
+
+#tweets .tweet.positive .meta p {
+	font-size: 14px;
+	color: rgb(12, 153, 12);
+}
+
+#tweets .tweet.negative .meta p {
+	font-size: 14px;
+	color: rgb(133, 21, 21);
+}
+
 
 #tweets .row:nth-child(odd) .user_image {
 	float: left;

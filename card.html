@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	
+	<title>Popcorn - Free Movie Opinion Polls</title> 
+	<meta name="description" content="Movie reviews and ratings" />	    
+	<meta name="keywords" content="Twitter based movie suggestions">
+	<meta property="og:title" content="Twitter world opinions">
+	<link rel="shortcut icon" href="images/logo.png">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="fancybox/jquery.fancybox-v=2.1.5.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/movie_card.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	
+	
+	<link rel="prefetch" href="images/zoom.png">
+		
+</head>
+
+<body>
+	
+	<ul>
+		<li class="movie_item">
+			<div class="movie_card">
+				<div class="movie_image">
+					<img src="images/cards/p1.jpg">
+				</div>
+				<div class="mov_foot">
+				<div class="movie_details">
+					<div class="movie_header">Random Header</div>
+					<div class="movie_release_date">Release date:12-03-2014</div>
+					<div class="movie_snippet">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua...</div>
+				</div>
+				<div class="movie_footer">
+					<ul>
+						<li><i class="icon icon-thumbs-down"></i>
+						</li><li><i class="icon icon-thumbs-up"></i>
+						</li><li><i class="icon icon-heart"></i>
+						</li><li><i class="icon icon-share"></i>
+						</li>
+					</ul>
+				</div>
+				</div>
+			</div>
+		</li>
+	</ul>
+	
+</body>
+
+	<!-- SCRIPTS -->
+	
+	<script src="js/html5shiv.js"></script>
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.fancybox.pack-v=2.1.5.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/card.js"></script>
+	
+	<!-- fancybox init -->
+	<script>
+	$(document).ready(function(e) {
+		var lis = $('.nav > li');
+		menu_focus( lis[0], 1 );
+		
+		$(".fancybox").fancybox({
+			padding: 10,
+			helpers: {
+				overlay: {
+					locked: false
+				}
+			}
+		});
+	
+	});
+	</script>
+
+</html>

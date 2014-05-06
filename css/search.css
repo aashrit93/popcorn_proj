@@ -217,3 +217,23 @@
 		box-shadow: 0 0 20px rgba(0,255,0,.6), inset 0 0 10px rgba(0,255,0,.4), 0 2px 0 #000;
     }
 }
+@media (min-width: 320px) and (max-width: 778px) {
+	.search
+	{
+		width: 100%
+	}
+}
+@media (min-width: 320px) and (max-width: 778px) {
+.movie_name
+{
+	width: 100%;
+}
+.movie_gen
+{
+	width: 100%;
+}
+.movie_lang
+{
+	width: 100%;
+}
+}
