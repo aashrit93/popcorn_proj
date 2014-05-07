@@ -6,6 +6,10 @@ g.dx-tracker path
 {
 	fill:white;
 }
+g.dxg-title text
+{
+	fill:gold;
+}
 .movie_name
 {
 	display: inline-block;
@@ -30,6 +34,7 @@ g.dx-tracker path
 .font-thin {
 	font-family: "Titillium Web", sans-serif;
 	font-weight: 200;
+	color: white;
 }
 
 .font-semibold {

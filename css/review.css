@@ -1,6 +1,7 @@
 #review .details .heading h1 {
 	font-size: 5rem;
 	text-align: right;
+	color:#CCB202;
 }
 
 #review .details .synopsis {
@@ -12,6 +13,7 @@
 	margin: 15px;
 	line-height: 22px;
 	font-size: 18px;
+	color: white;
 }
 
 @media (max-width: 767px) {
@@ -54,14 +56,18 @@
 #tweets .tweet p {
 	text-align: left;
 	font-size: 16px;
+	color: white;
 }
 
 #tweets .tweet .meta {
 	margin-bottom: 10px;
+
 }
 
 #tweets .tweet .meta p {
 	font-size: 14px;
+	color: rgb(201, 196, 196);
+	margin: 0;
 }
 
 #tweets .tweet.positive .meta p {
